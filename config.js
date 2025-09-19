@@ -1,3 +1,1 @@
-// config.js — Llaves reales de Supabase
-window.DOJO_SUPABASE_URL  = "https://jwwiwxyyujiqzwzbqlft.supabase.co";
-window.DOJO_SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3d2l3eHl5dWppcXp3emJxbGZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgzMDQ2NjIsImV4cCI6MjA3Mzg4MDY2Mn0.eF34AQW6hkGWQBvcRiNn1bG1oe9snbEBFnzVie8iEY8";
+window.DOJO_SUPABASE_URL="https://jwwiwxyyujiqzwzbqlft.supabase.co";window.DOJO_SUPABASE_ANON="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3d2l3eHl5dWppcXp3emJxbGZ0Iiwicm9zZSI6ImFub24iLCJpYXQiOjE3NTgzMDQ2NjIsImV4cCI6MjA3Mzg4MDY2Mn0.eF34AQW6hkGWQBvcRiNn1bG1oe9snbEBFnzVie8iEY8";
