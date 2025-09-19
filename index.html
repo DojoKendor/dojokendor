@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DojoKendor · Conectado</title>
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <script src="config.js?v=1"></script>
+</head>
+<body>
+  <h1>DojoKendor</h1>
+  <p>Conexión lista con tus llaves. Prueba crear cuenta o entrar desde la consola:</p>
+  <pre>
+  const s = supabase.createClient(window.DOJO_SUPABASE_URL, window.DOJO_SUPABASE_ANON);
+  await s.auth.signUp({ email: "tu@correo.com", password: "clave123" });
+  await s.auth.signInWithPassword({ email: "tu@correo.com", password: "clave123" });
+  </pre>
+</body>
+</html>
